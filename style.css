@@ -110,12 +110,16 @@ span {
     transform: rotate(180deg);
 }
 .img {
-    padding-left: 47%;
+    height: 100%;
+    margin-left: 47%;
 }
 .img img {
     width: 70%;
-    height: 93vh;
+    height: 93%;
     object-fit: contain;
+}
+.mobile {
+    display: none;
 }
 @media (max-width:767px) {
     .wrapper {
